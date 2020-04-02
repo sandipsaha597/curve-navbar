@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curve Navbar</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="">
+        <div class="nav-icon">
+          <div class="topbar"></div>
+          <div class="middlebar"></div>
+          <div class="bottombar"></div>
+        </div>
+        <ul class="nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">TEAM</a></li>
+          <li><a href="#">CLIENT</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+    </nav>
+
+      <script>
+        const nav = document.querySelector('nav')
+        nav.onclick = () => nav.classList.toggle('active')
+      </script>
+</body>
+</html>
